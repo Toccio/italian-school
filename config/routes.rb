@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-    resources :school
+    root to: 'schools#home'
+
+    resources :courses, only: %i[index]
 end
