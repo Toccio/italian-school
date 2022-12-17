@@ -1,130 +1,130 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-body{
-  background-color: white;
-}
+// *{
+//   margin: 0;
+//   padding: 0;
+// }
+// body{
+//   background-color: white;
+// }
 
-h1, h2{
- color: #638199;
-}
-.main-container{
-  margin: 32px 78px 64px 78px;
-}
-.first-card-container{
-  display: flex;
-  justify-content: space-around;
-}
+// h1, h2{
+//  color: #638199;
+// }
+// .main-container{
+//   margin: 32px 78px 64px 78px;
+// }
+// .first-card-container{
+//   display: flex;
+//   justify-content: space-around;
+// }
 
-.blue-container{
-  background-color: #F6FDFF;
-  width: 100%;
-  padding: 26px 0 26px 0;
-}
+// .blue-container{
+//   background-color: #F6FDFF;
+//   width: 100%;
+//   padding: 26px 0 26px 0;
+// }
 
-.text-first-card{
-  margin: 16px 16px 16px 16px;
+// .text-first-card{
+//   margin: 16px 16px 16px 16px;
 
-}
+// }
 
-.text-first-card p{
-  font-weight: bold;
+// .text-first-card p{
+//   font-weight: bold;
 
-}
+// }
 
-.title{
-  font-size: 32px;
-  font-family: 'Inter', sans-serif;
-  font-weight: bolder;
-}
+// .title{
+//   font-size: 32px;
+//   font-family: 'Inter', sans-serif;
+//   font-weight: bolder;
+// }
 
-.first-text{
-  line-height: initial;
-}
-.blue-word{
-  color: #71C0DF;
-}
+// .first-text{
+//   line-height: initial;
+// }
+// .blue-word{
+//   color: #71C0DF;
+// }
 
-.subtext{
-  font-size: 22px;
-  color: #638199;
-}
+// .subtext{
+//   font-size: 22px;
+//   color: #638199;
+// }
 
-.center-title{
-  text-align: center;
-  padding: 32px 0 26px 0;
-  font-size: 32px;
-  font-family: 'Inter', sans-serif;
-  font-weight: bolder;
-  margin: 0px;
-}
+// .center-title{
+//   text-align: center;
+//   padding: 32px 0 26px 0;
+//   font-size: 32px;
+//   font-family: 'Inter', sans-serif;
+//   font-weight: bolder;
+//   margin: 0px;
+// }
 
-.blue-btn{
-  background-color:#baf5ff;
-  padding: 8px 16px 8px 16px;
-  border-radius: 6px;
-  border: none;
-  color: #638199;
-  font-weight: bold;
-}
+// .blue-btn{
+//   background-color:#baf5ff;
+//   padding: 8px 16px 8px 16px;
+//   border-radius: 6px;
+//   border: none;
+//   color: #638199;
+//   font-weight: bold;
+// }
 
-.blue-btn:hover{
-  background-color:#6fe9ff;
-  padding: 8px 16px 8px 16px;
-  border-radius: 8px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-}
+// .blue-btn:hover{
+//   background-color:#6fe9ff;
+//   padding: 8px 16px 8px 16px;
+//   border-radius: 8px;
+//   border: none;
+//   color: #ffffff;
+//   font-weight: bold;
+// }
 
-.top-img{
-  border-radius: 8px;
-  width: 60%;
-  height: 278px;
-  margin-left: 60px;
-}
+// .top-img{
+//   border-radius: 8px;
+//   width: 60%;
+//   height: 278px;
+//   margin-left: 60px;
+// }
 
-.mini-cards{
-  display: flex;
-  justify-content: space-around;
-  margin: 32px 78px 64px 78px;
-}
-.card-title{
-  font-family: 'Inter', sans-serif;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 24px;
-}
-.info-cards{
-  margin-right: 46px;
-  text-align: center;
-}
+// .mini-cards{
+//   display: flex;
+//   justify-content: space-around;
+//   margin: 32px 78px 64px 78px;
+// }
+// .card-title{
+//   font-family: 'Inter', sans-serif;
+//   font-size: 32px;
+//   text-align: center;
+//   margin-bottom: 24px;
+// }
+// .info-cards{
+//   margin-right: 46px;
+//   text-align: center;
+// }
 
-.blue-container-element{
-  margin: 16px 78px 16px 78px;
-  display: flex;
-}
+// .blue-container-element{
+//   margin: 16px 78px 16px 78px;
+//   display: flex;
+// }
 
 
-.poster-procida{
-  width: 50%;
-  height: 50%;
-  margin-right: 0px;
-  margin-left: auto;
-}
+// .poster-procida{
+//   width: 50%;
+//   height: 50%;
+//   margin-right: 0px;
+//   margin-left: auto;
+// }
 
-.our-school-content{
-  background-color: rgba(255, 255, 255, 0.486);
-  width: 60%;
-  height: 80%;
-  border-radius: 6px;
-  position: absolute;
-  padding: 32px;
-  margin-top: 81px;
-}
+// .our-school-content{
+//   background-color: rgba(255, 255, 255, 0.486);
+//   width: 60%;
+//   height: 80%;
+//   border-radius: 6px;
+//   position: absolute;
+//   padding: 32px;
+//   margin-top: 81px;
+// }
 
-.our-school-content p{
-  text-align: justify;
-  font-size: 20px;
-}
+// .our-school-content p{
+//   text-align: justify;
+//   font-size: 20px;
+// }
