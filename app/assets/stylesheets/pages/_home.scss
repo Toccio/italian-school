@@ -9,7 +9,7 @@ body{
 h1, h2{
  color: #638199;
 }
-.mip{
+.home-container{
   margin: 32px 78px 64px 78px;
 }
 .first-card-container{
@@ -17,9 +17,9 @@ h1, h2{
   justify-content: space-around;
 }
 
-.blue-ccontainer{
+.blue-container{
   background-color: #F6FDFF;
-  width: 100%;
+  width: 100% !important;
   padding: 26px 0 26px 0;
 }
 
@@ -105,7 +105,6 @@ h1, h2{
   margin: 16px 78px 16px 78px;
   display: flex;
 }
-
 
 .poster-procida{
   width: 50%;
