@@ -1,13 +1,240 @@
-<h1>
+<%# <h1>
   <%= link_to "Check all courses", courses_path %>
-</h1>
+<%# </h1> %>
 
-<p>
-  <% if current_user.nil? %>
-    <%= link_to "Sign in", new_user_session_path %>
-    <%= link_to "Sign up", new_user_registration_path %>
-  <% else %>
-    <%= link_to "Edit", edit_user_registration_path %>
-    <%= link_to "Log out", destroy_user_session_path, method: :delete %>
-  <% end %>
-</p>
+<%# <p> %>
+  <%# <% if current_user.nil? %>
+    <%# <%= link_to "Sign in", new_user_session_path %>
+    <%# <%= link_to "Sign up", new_user_registration_path %>
+  <%# <% else %>
+    <%# <%= link_to "Edit", edit_user_registration_path %>
+    <%# <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+  <%# <% end %>
+<%# </p> %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">  <title>Document</title>
+</head>
+<body>
+
+  <div class="home-container">
+    <div class="first-card-container">
+        <div class="text-first-card">
+          <h1 class="title">L'isola dell'<span class="blue-word">italiano</span></h1>
+          <p class="subtext"> Scuola di <span class="blue-word">lingua</span> e <span class="blue-word">cultura</span> italiana a Procida </p>
+          <br>
+          <p class="first-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aperiam tenetur nostrum ipsum distinctio voluptates ipsam, eaque numquam non quas atque aliquid est unde ut nemo odit fugit omnis qui!</p>
+          <br>
+          <button class="blue-btn">Scopri i corsi</button>
+        </div>
+        <img class="top-img" src="https://www.oxfordlearning.com/wp-content/uploads/2017/04/AdobeStock_132869690-860x420.jpeg" alt="Student studying italian">
+    </div>
+  </div>
+
+  <%# EXEPTIONAL LEARNING EXPERIENCE %>
+  <div class="blue-container">
+    <h1 class="center-title">Execptional <span class="blue-word">Learning Experience</span></h1>
+    <br>
+    <div class="mini-cards">
+      <div class="info-cards">
+        <h2 class="card-title">+500</h2>
+        <p><strong>houars of classes with exeptional teachers.</strong></p>
+      </div>
+      <div class="info-cards">
+        <h2 class="card-title">Certifications</h2>
+        <p><strong>houars of classes with exeptional teachers.</strong></p>
+      </div>
+      <div>
+        <h2 class="card-title">Teachers</h2>
+        <p><strong>houars of classes with exeptional teachers.</strong></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <%# EXPLORE OUR COURSES %>
+  <h1 class="center-title">Explore our <span class="blue-word">courses</span></h1>
+  <div class="courses-container">
+
+
+
+    <div class="card course-card">
+      <header class="img-card-a1"></header>
+      <h4 class="card-level">A1</h4>
+      <div class="card-body">
+        <h5 class="card-course-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <%# <a href="#" class="card-btn">EXPLORE</a> %>
+      </div>
+    </div>
+
+
+    <div class="card course-card">
+      <header class="img-card-a2"></header>
+      <h4 class="card-level">A2</h4>
+      <div class="card-body">
+        <h5 class="card-course-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <%# <a href="#" class="card-btn"> EXPLORE</a> %>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="courses-container">
+
+    <div class="card course-card">
+      <header class="img-card-b1"></header>
+      <h4 class="card-level">B1</h4>
+      <div class="card-body">
+        <h5 class="card-course-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <%# <a href="#" class="card-btn">EXPLORE</a> %>
+      </div>
+    </div>
+
+    <div class="card course-card">
+      <header class="img-card-b2"></header>
+      <h4 class="card-level">B2</h4>
+      <div class="card-body">
+        <h5 class="card-course-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <%# <a href="#" class="card-btn"> EXPLORE</a> %>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="l-more">
+    load more
+    <i class="fa-duotone fa-triangle l-more"></i>
+  </button>
+
+  <%# OUR SCHOOL BLUE %>
+  <div class="blue-container">
+    <h1 class="center-title">Our Language School in <span class="blue-word">Procida</span></h1>
+    <div class="blue-container-element">
+
+      <div class="our-school-content">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis repudiandae quas vitae ea, nesciunt quae laudantium architecto reprehenderit dolorem facilis aperiam iste iure sed, animi possimus repellat molestias eum? Optio!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto modi in sapiente accusamus sint, odit, aliquam adipisci, consectetur deleniti quo autem? Repellendus ad quia ipsum iusto distinctio tempora nulla vel?
+        Dicta, esse, ullam molestias quis rerum odit commodi repellat quae ab reiciendis hic voluptas dolores, pariatur nam sit a quod fugiat dolore provident nulla. Non soluta eligendi atque delectus iste!
+        In natus doloribus iusto veritatis, doloremque aspernatur at culpa quidem dicta adipisci a necessitatibus rem, temporibus alias iure repellendus et reiciendis deserunt delectus. At vitae voluptate iusto quibusdam minima dolor.
+        </p>
+      </div>
+      <%# <div class="b-img"></div> %>
+      <img class="poster-procida" src="../assets/p_procida.png" alt="">
+
+    </div>
+  </div>
+
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <img src="" alt="">
+
+  <%# OUR VISION %>
+  <h1 class="center-title">Our <span class="blue-word">Vision</span></h1>
+  <div class="vision-container">
+
+    <div class="card vision-card">
+      <header class="img-vision-card"></header>
+      <img src="../assets/Tree_Logo.png" alt="tree logo" class="vision-logo"></img>
+      <img src="../assets/vision-card-lemon.png" alt="lemon-pictures" class="vision-rounded-img">
+      <div class="vision-card-body">
+        <h5 class="card-vision-title">Card title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, voluptate accusamus, doloribus corrupti nobis ex exercitationem sint cum provident dolore atque nostrum  on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn-vision">EXPLORE</a>
+      </div>
+      <%# <button class="btn-vision">MORE</button> %>
+    </div>
+
+    <div class="card vision-card">
+      <header class="img-vision-card"></header>
+      <img src="../assets/Tree_Logo.png" alt="tree logo" class="vision-logo"></img>
+      <img src="../assets/vision-card-lemon.png" alt="lemon-pictures" class="vision-rounded-img">
+      <div class="vision-card-body">
+        <h5 class="card-vision-title">Card title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, voluptate accusamus, doloribus corrupti nobis ex exercitationem sint cum provident dolore atque nostrum  on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn-vision">EXPLORE</a>
+      </div>
+      <%# <button class="btn-vision">MORE</button> %>
+    </div>
+
+    <div class="card vision-card">
+      <header class="img-vision-card"></header>
+      <img src="../assets/Tree_Logo.png" alt="tree logo" class="vision-logo"></img>
+      <img src="../assets/vision-card-lemon.png" alt="lemon-pictures" class="vision-rounded-img">
+      <div class="vision-card-body">
+        <h5 class="card-vision-title">Card title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, voluptate accusamus, doloribus corrupti nobis ex exercitationem sint cum provident dolore atque nostrum  on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn-vision">EXPLORE</a>
+      </div>
+      <%# <button class="btn-vision">MORE</button> %>
+    </div>
+
+  </div>
+
+  <%# SLIDER %>
+  <div class="blue-container">
+    <h1 class="center-title">Our <span class="blue-word">Partners</span></h1>
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="../assets/carousel-logo1" class="slide-img" alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo2" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo3" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo4" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo5" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo1" class="slide-img" alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo2" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo3" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo4" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo5" class="slide-img"  alt="">
+        </div>
+            <div class="slide">
+          <img src="../assets/carousel-logo1" class="slide-img" alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo2" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo3" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo4" class="slide-img"  alt="">
+        </div>
+        <div class="slide">
+          <img src="../assets/carousel-logo5" class="slide-img"  alt="">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

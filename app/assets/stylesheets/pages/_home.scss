@@ -1,0 +1,396 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+
+h1, h2{
+ color: #638199;
+}
+.home-container{
+  margin: 32px 78px 64px 78px;
+}
+.first-card-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blue-container{
+  background-color: #F6FDFF;
+  width: 100% !important;
+  padding: 26px 0 26px 0;
+}
+
+.text-first-card{
+  margin: 16px 16px 16px 16px;
+
+}
+
+.text-first-card p{
+  font-weight: bold;
+
+}
+
+.title{
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+}
+
+.first-text{
+  line-height: initial;
+}
+.blue-word{
+  color: #71C0DF;
+}
+
+.subtext{
+  font-size: 22px;
+  color: #638199;
+}
+
+.center-title{
+  text-align: center;
+  padding: 32px 0 26px 0;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.blue-btn{
+  background-color:#baf5ff;
+  padding: 8px 16px 8px 16px;
+  border-radius: 6px;
+  border: none;
+  color: #638199;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blue-btn:hover{
+  background-color:#6fe9ff;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top-img{
+  border-radius: 8px;
+  width: 60%;
+  height: 278px;
+  margin-left: 60px;
+}
+
+.mini-cards{
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 78px 64px 78px;
+}
+.card-title{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  text-align: right;
+  margin-bottom: 6px;
+}
+.card-body{
+  padding-top: 0px;
+  position: absolute;
+  margin: 174px 16px 0 16px;
+}
+
+.info-cards{
+  margin-right: 46px;
+  text-align: center;
+}
+
+.card-course-title{
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+// <%# EXPLORE OUR COURSES %>
+.courses-container{
+  margin: 32px 108px 64px 108px;
+  display: flex;
+  justify-content: space-between ;
+}
+
+// .level-title{
+//   text-align: center;
+//   padding: 12px 0 42px 0;
+//   font-size: 32px;
+//   font-family: 'Inter', sans-serif;
+//   font-weight: bolder;
+//   margin: 0px;
+// }
+
+.course-card{
+  border-radius: 32px;
+  width: 540px;
+  height: 324px;
+  border: none;
+  box-shadow: 4px 4px 16px 1px rgba(0, 0, 255, .1);
+}
+
+.img-card-a1{
+  background-image: url("../assets/p-mirror.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 188px;
+  border-radius: 32px 32px 0px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.img-card-a1:hover{
+  background-image: linear-gradient(43deg, #4159d05a 0%, #c850c05a 46%, #FFCC705a 100%),
+    url("../assets/p-mirror.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 188px;
+  border-radius: 32px 32px 0px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.img-card-a2{
+  background-image: linear-gradient(43deg, #4159d05a 0%, #c850c05a 46%, #FFCC705a 100%),
+    url("../assets/margerita-mirror.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 188px;
+  border-radius: 32px 32px 0px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.img-card-b1{
+  background-image: linear-gradient(43deg, #4159d05a 0%, #c850c05a 46%, #FFCC705a 100%),
+    url("../assets/ciro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 188px;
+  border-radius: 32px 32px 0px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.img-card-b2{
+  background-image: linear-gradient(43deg, #4159d05a 0%, #c850c05a 46%, #FFCC705a 100%),
+    url("../assets/card-b2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 188px;
+  border-radius: 32px 32px 0px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.card-level{
+  background-color: #6fe9ff;
+  font-family: 'Inter', sans-serif;
+  color: #638199;
+  position: absolute;
+  border-radius: 40%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 159px 13px;
+  padding: 8px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 255, .1);
+}
+
+
+.card-text{
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+// .card-btn{
+//   width: 312px;
+//   background-color: #baf5ff;
+//   padding: 8px 16px 8px 16px;
+//   border-radius: 14px;
+//   border: none;
+//   color: #638199;
+//   font-weight: bold;
+//   text-decoration: none;
+//   padding-right: 88px;
+//   padding-left: 88px;
+//   margin: 0 auto;
+//   text-align: center;
+//   display: block;
+// }
+
+// .card-btn:hover{
+//   width: 312px;
+//   background-color: #baf5ff;
+//   padding: 8px 16px 8px 16px;
+//   border-radius: 14px;
+//   border: none;
+//   color: #638199;
+//   font-weight: bold;
+//   text-decoration: none;
+//   padding-right: 88px;
+//   padding-left: 88px;
+//   margin: 0 auto;
+//   text-align: center;
+//   display: block;
+// }
+
+.l-more{
+  margin: 0 auto;
+  color: #638199;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  background-color: transparent;
+  margin-top: 38px;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+.blue-container-element{
+  margin: 16px 78px 16px 78px;
+  display: flex;
+}
+
+.poster-procida{
+  width: 50%;
+  height: 50%;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.our-school-content{
+  background-color: rgba(255, 255, 255, 0.486);
+  width: 876px;
+  height: 468px;
+  border-radius: 6px;
+  position: absolute;
+  padding: 32px;
+  margin-top: 81px;
+}
+
+.our-school-content p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+// VISION CARDS
+
+.vision-container{
+  margin: 32px 108px 64px 108px;
+  display: flex;
+  justify-content: space-between ;
+}
+
+.vision-card{
+  border-radius: 16px;
+  width: 361px;
+  height: 528px;
+  border: none;
+  box-shadow: 4px 4px 16px 1px rgba(0, 0, 255, .1);
+}
+
+.img-vision-card{
+  background-color: rgb(32, 180, 39);
+  height: 134px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.vision-rounded-img{
+  border-radius: 50%;
+  position: absolute;
+  width: 196px;
+  margin: 50px 83px;
+  border: solid 8px white;
+}
+
+.vision-logo{
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  margin: 10px 0 0 10px;
+}
+
+.card-vision-title{
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.btn-vision{
+  background-color:#baf5ff;
+  padding: 10px 20px 10px 20px;
+  display: block;
+  text-align: center;
+  border-radius: 14px;
+  text-decoration: none;
+  font-family:'Inter', sans-serif;
+  color: #638199;
+}
+
+
+.btn-vision:hover{
+  background-color:#6fe9ff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-family:'Inter', sans-serif;
+  color: #638199;
+}
+
+.vision-card-body{
+  padding-top: 0px;
+  position: absolute;
+  margin: 232px 20px;
+}
+
+
+
+// PARTNERS
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider{
+  height: 180px;
+  margin: auto;
+  overflow: hidden;
+  // position: relative;
+  width: auto;
+}
+
+.slide-track{
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(460px * 4);
+}
+
+.slide{
+  // margin: 32px 0 32px 0;
+  height: 180px;
+  width: 180px;
+}
+
+.slide-img{
+  width: 180px;
+  height: 180px;
+}
